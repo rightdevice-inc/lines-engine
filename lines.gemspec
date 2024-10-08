@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.cert_chain  = ['certs/lines-engine.pem']
   s.signing_key = File.expand_path("~/.ssh/gem-private_key.pem") if $0 =~ /gem\z/
 
-
   s.add_runtime_dependency 'orm_adapter', '>= 0.5'
   s.add_runtime_dependency 'thread_safe', '>= 0.3'
   s.add_runtime_dependency 'railties', '>= 3.2.6', '< 7'
@@ -25,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'thor', '>= 0.19'
   s.add_runtime_dependency 'carrierwave', '>= 0.10.0'
   s.add_runtime_dependency 'kaminari', '>= 0.16.1'
-  s.add_runtime_dependency 'pygments.rb', '>= 0.6.0'
+  s.add_runtime_dependency 'pygments.rb', '>= 3.0.0'
   s.add_runtime_dependency 'redcarpet', '>= 3.3.3'
   s.add_runtime_dependency 'jquery-rails', '< 6', '>= 3.1.0'
   s.add_runtime_dependency 'acts-as-taggable-on', '>= 3.5'
